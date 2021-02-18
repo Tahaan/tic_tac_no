@@ -50,12 +50,6 @@ class _LanguageBottomSheetState extends State<LanguageBottomSheet> {
                       locale: SupportedLocale.en,
                     ),
                     LanguageListTile(
-                      languageEmoji: '🇿🇦',
-                      languageName: 'Afrikaans',
-                      showCheck: Utils.currentLocale(context) == Locale('af'),
-                      locale: SupportedLocale.af,
-                    ),
-                    LanguageListTile(
                       languageEmoji: '🇸🇦',
                       languageName: 'العربية',
                       showCheck: Utils.currentLocale(context) == Locale('ar'),
